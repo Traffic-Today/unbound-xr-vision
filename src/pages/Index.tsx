@@ -1,13 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone } from "lucide-react";
 import Header from "@/components/Header";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       <Header />
       
       {/* Hero Section */}
@@ -332,7 +329,7 @@ const Index = () => {
                     <p className="text-lg text-gray-700 font-extra-light">Je zet de VR bril op</p>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">2</div>
+                    <div className="bg-[#6ECBF5] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm ">2</div>
                     <p className="text-lg text-gray-700 font-extra-light">Binnen enkele seconden sta je in een virtueel lokaal, praktijkomgeving of 3D-simulatie</p>
                   </div>
                   <div className="flex items-center space-x-4">
@@ -501,8 +498,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
