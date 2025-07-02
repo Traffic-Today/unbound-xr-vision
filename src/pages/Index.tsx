@@ -1,9 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone, Hospital, Building, Film, Wrench, Briefcase, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 
 const Index = () => {
@@ -566,6 +566,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>;
 };
 export default Index;
