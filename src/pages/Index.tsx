@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -14,7 +15,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-block bg-[#6ECBF5] text-white px-4 py-2 rounded-full text-sm font-bold mb-6">
+              <div className="inline-block border-2 border-[#292457] text-[#292457] px-4 py-2 rounded-full text-sm font-bold mb-6">
                 Nu ook als leenset beschikbaar
               </div>
               <h1 className="text-5xl font-black text-[#292457] mb-6 leading-tight font-titillium">
