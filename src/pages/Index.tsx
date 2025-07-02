@@ -485,9 +485,7 @@ const Index = () => {
             <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Publieke sector </Button>
             <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Entertainment</Button>
             <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Industrie</Button>
-            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">
-              XR in het bedrijfsleven
-            </Button>
+            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Bedrijfsleven</Button>
           </div>
         </div>
       </section>
