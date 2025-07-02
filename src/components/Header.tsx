@@ -140,7 +140,7 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             <span className="text-green-600 mr-2">✓</span>
-            <span><strong>Niet gevonden wat u zocht?</strong></span>
+            <span><strong>Niet gevonden wat je zocht?</strong></span>
           </div>
           <div className="flex items-center">
             <span className="text-green-600 mr-2">✓</span>
