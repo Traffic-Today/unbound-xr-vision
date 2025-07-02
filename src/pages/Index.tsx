@@ -323,25 +323,41 @@ const Index = () => {
           <div className="bg-[#F6F3FF] rounded-2xl p-8 md:p-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed font-extra-light">
+                <p className="text-lg text-gray-700 mb-8 leading-relaxed font-extra-light">
                   Voor veel docenten is VR nog een abstract begrip. Maar in de praktijk is het verrassend eenvoudig:
                 </p>
-                <div className="space-y-4 mb-6">
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">1</div>
-                    <p className="text-lg text-gray-700 font-extra-light">Je zet de VR bril op</p>
+                <div className="space-y-6 mb-8">
+                  <div className="flex items-start space-x-4">
+                    <div className="bg-[#6ECBF5] text-white w-10 h-10 flex items-center justify-center font-bold text-lg rounded-full flex-shrink-0 mt-1">1</div>
+                    <div className="flex-1">
+                      <p className="text-lg text-gray-700 font-extra-light leading-relaxed">
+                        Je zet de VR bril op
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">2</div>
-                    <p className="text-lg text-gray-700 font-extra-light">Binnen enkele seconden sta je in een virtueel lokaal, praktijkomgeving of 3D-simulatie</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="bg-[#6ECBF5] text-white w-10 h-10 flex items-center justify-center font-bold text-lg rounded-full flex-shrink-0 mt-1">2</div>
+                    <div className="flex-1">
+                      <p className="text-lg text-gray-700 font-extra-light leading-relaxed">
+                        Binnen enkele seconden sta je in een virtueel lokaal, praktijkomgeving of 3D-simulatie
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">3</div>
-                    <p className="text-lg text-gray-700 font-extra-light">Studenten bewegen zich vrij rond, voeren opdrachten uit of volgen instructies</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="bg-[#6ECBF5] text-white w-10 h-10 flex items-center justify-center font-bold text-lg rounded-full flex-shrink-0 mt-1">3</div>
+                    <div className="flex-1">
+                      <p className="text-lg text-gray-700 font-extra-light leading-relaxed">
+                        Studenten bewegen zich vrij rond, voeren opdrachten uit of volgen instructies
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">4</div>
-                    <p className="text-lg text-gray-700 font-extra-light">De docent begeleidt, kijkt mee via een tablet of scherm, en bespreekt na</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="bg-[#6ECBF5] text-white w-10 h-10 flex items-center justify-center font-bold text-lg rounded-full flex-shrink-0 mt-1">4</div>
+                    <div className="flex-1">
+                      <p className="text-lg text-gray-700 font-extra-light leading-relaxed">
+                        De docent begeleidt, kijkt mee via een tablet of scherm, en bespreekt na
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed font-extra-light">
