@@ -2,10 +2,13 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Camera, Check } from "lucide-react";
+import Header from "@/components/Header";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      <Header />
+      
       {/* Hero Section */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
