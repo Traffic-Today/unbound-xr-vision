@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone } from "lucide-react";
+import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone, Hospital, Building, Film, Industry, Briefcase, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import { Badge } from "@/components/ui/badge";
+
 const Index = () => {
   return <div className="min-h-screen bg-white">
       <Header />
@@ -471,21 +472,80 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Section 11: Other sectors */}
+      {/* Section 11: Other sectors - Enhanced Interactive Cards */}
       <section className="bg-[#F6F3FF] py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black text-[#292457] mb-8 text-center font-titillium">
             XR in andere sectoren
           </h2>
-          <p className="text-lg text-gray-700 mb-8 leading-relaxed font-extra-light text-center">
+          <p className="text-lg text-gray-700 mb-12 leading-relaxed font-extra-light text-center max-w-3xl mx-auto">
             Bekijk ook de mogelijkheden van VR en AR in andere sectoren.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Zorg</Button>
-            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Publieke sector </Button>
-            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Entertainment</Button>
-            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Industrie</Button>
-            <Button variant="outline" className="border-[#292457] text-[#292457] hover:bg-[#292457] hover:text-white p-4 h-auto text-left justify-start font-extra-light">Bedrijfsleven</Button>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-[#F6F3FF] p-3 rounded-lg group-hover:bg-[#6ECBF5] transition-colors duration-300">
+                    <Hospital className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
+                  </div>
+                  <ArrowRight className="text-gray-400 group-hover:text-[#6ECBF5] opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0" size={20} />
+                </div>
+                <h3 className="text-xl font-bold text-[#292457] mb-2 font-titillium">Zorg</h3>
+                <p className="text-gray-600 font-extra-light">Innovatieve training en behandelingen</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-[#F6F3FF] p-3 rounded-lg group-hover:bg-[#6ECBF5] transition-colors duration-300">
+                    <Building className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
+                  </div>
+                  <ArrowRight className="text-gray-400 group-hover:text-[#6ECBF5] opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0" size={20} />
+                </div>
+                <h3 className="text-xl font-bold text-[#292457] mb-2 font-titillium">Publieke sector</h3>
+                <p className="text-gray-600 font-extra-light">Digitale overheidsdiensten</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-[#F6F3FF] p-3 rounded-lg group-hover:bg-[#6ECBF5] transition-colors duration-300">
+                    <Film className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
+                  </div>
+                  <ArrowRight className="text-gray-400 group-hover:text-[#6ECBF5] opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0" size={20} />
+                </div>
+                <h3 className="text-xl font-bold text-[#292457] mb-2 font-titillium">Entertainment</h3>
+                <p className="text-gray-600 font-extra-light">Immersieve ervaringen</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-[#F6F3FF] p-3 rounded-lg group-hover:bg-[#6ECBF5] transition-colors duration-300">
+                    <Industry className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
+                  </div>
+                  <ArrowRight className="text-gray-400 group-hover:text-[#6ECBF5] opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0" size={20} />
+                </div>
+                <h3 className="text-xl font-bold text-[#292457] mb-2 font-titillium">Industrie</h3>
+                <p className="text-gray-600 font-extra-light">Veilige praktijktraining</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group md:col-span-2 lg:col-span-1">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="bg-[#F6F3FF] p-3 rounded-lg group-hover:bg-[#6ECBF5] transition-colors duration-300">
+                    <Briefcase className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
+                  </div>
+                  <ArrowRight className="text-gray-400 group-hover:text-[#6ECBF5] opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0" size={20} />
+                </div>
+                <h3 className="text-xl font-bold text-[#292457] mb-2 font-titillium">Bedrijfsleven</h3>
+                <p className="text-gray-600 font-extra-light">Efficiënte teamtraining</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
