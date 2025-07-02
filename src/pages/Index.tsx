@@ -397,7 +397,7 @@ const Index = () => {
               <Phone className="mr-2" size={20} />
               Plan een adviesgesprek
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-[#292457] px-8 py-3 text-lg font-bold">
+            <Button variant="outline" className="border-white hover:bg-white px-8 py-3 text-lg font-bold text-[#292457]">
               Vraag een demo aan
             </Button>
           </div>
