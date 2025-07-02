@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone } from "lucide-react";
 import Header from "@/components/Header";
+
 const Index = () => {
   return <div className="min-h-screen bg-white">
       <Header />
@@ -84,7 +85,7 @@ const Index = () => {
             Waar VR wél het verschil maakt in het onderwijs
           </h2>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-gray-200 h-80 flex items-center justify-center rounded-2xl shadow-lg">
+            <div className="bg-gray-200 h-96 flex items-center justify-center rounded-2xl shadow-lg">
               <Camera size={64} className="text-gray-400" />
             </div>
             <div>
@@ -193,8 +194,8 @@ const Index = () => {
             VR als oplossing voor betere betrokkenheid bij student en docent – Curio
           </h2>
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
+            <div className="grid lg:grid-cols-2 gap-12 items-stretch">
+              <div className="flex flex-col justify-center">
                 <div className="flex items-center mb-6">
                   <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mr-4">
                     <Users size={32} className="text-gray-400" />
@@ -220,7 +221,7 @@ const Index = () => {
                   "We willen een expertisecentrum oprichten op het gebied van extended reality en innovatieve technologieën die ons onderwijs kunnen verrijken"
                 </blockquote>
               </div>
-              <div className="bg-gray-200 h-96 flex items-center justify-center rounded-2xl shadow-lg">
+              <div className="bg-gray-200 flex items-center justify-center rounded-2xl shadow-lg">
                 <Camera size={64} className="text-gray-400" />
               </div>
             </div>
@@ -500,4 +501,5 @@ const Index = () => {
       </section>
     </div>;
 };
+
 export default Index;
