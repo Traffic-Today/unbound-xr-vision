@@ -19,8 +19,13 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'sans': ['Barlow', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
-				'barlow': ['Barlow', 'sans-serif'],
+				'sans': ['Titillium Web', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+				'titillium': ['Titillium Web', 'sans-serif'],
+			},
+			fontWeight: {
+				'extra-light': '200',
+				'normal': '400',
+				'bold': '700',
 			},
 			colors: {
 				border: 'hsl(var(--border))',

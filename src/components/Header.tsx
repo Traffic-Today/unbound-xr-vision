@@ -11,10 +11,10 @@ const Header = () => {
   return (
     <>
       {/* Top banner */}
-      <div className="bg-white text-sm py-2 px-4 border-b">
+      <div className="bg-white text-sm py-2 px-4 border-b font-extra-light">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <span className="text-gray-600">
-            Dé <strong>One-Stop-Shop</strong> voor <strong>XR</strong> enthousiastelingen en professionals!
+            Dé <strong className="font-bold">One-Stop-Shop</strong> voor <strong className="font-bold">XR</strong> enthousiastelingen en professionals!
           </span>
           <div className="flex items-center space-x-4 text-gray-600">
             <span className="flex items-center">
@@ -32,7 +32,7 @@ const Header = () => {
       </div>
 
       {/* Main header */}
-      <header className="bg-[#292457] text-white">
+      <header className="bg-[#292457] text-white font-extra-light">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
@@ -49,10 +49,10 @@ const Header = () => {
               <NavigationMenu>
                 <NavigationMenuList className="space-x-6">
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger className="text-white hover:text-[#6ECBF5] bg-transparent hover:bg-transparent">
+                    <NavigationMenuTrigger className="text-white hover:text-[#6ECBF5] bg-transparent hover:bg-transparent font-bold">
                       Bekijk ons assortiment
                     </NavigationMenuTrigger>
-                    <NavigationMenuContent className="bg-white text-gray-900 p-4 min-w-[300px]">
+                    <NavigationMenuContent className="bg-white text-gray-900 p-4 min-w-[300px] font-extra-light">
                       <div className="space-y-2">
                         <a href="#" className="block px-3 py-2 hover:bg-gray-100 rounded">VR Headsets</a>
                         <a href="#" className="block px-3 py-2 hover:bg-gray-100 rounded">AR Brillen</a>
@@ -69,7 +69,7 @@ const Header = () => {
                 <input
                   type="text"
                   placeholder="Waar ben je naar op zoek?"
-                  className="w-80 px-4 py-2 rounded-md text-gray-900 placeholder-gray-500"
+                  className="w-80 px-4 py-2 rounded-md text-gray-900 placeholder-gray-500 font-extra-light"
                 />
                 <Search className="absolute right-3 top-2.5 h-4 w-4 text-gray-400" />
               </div>
@@ -105,11 +105,11 @@ const Header = () => {
               <div className="space-y-4">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" className="text-white hover:text-[#6ECBF5] justify-start w-full">
+                    <Button variant="ghost" className="text-white hover:text-[#6ECBF5] justify-start w-full font-bold">
                       Bekijk ons assortiment
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent className="bg-white">
+                  <DropdownMenuContent className="bg-white font-extra-light">
                     <DropdownMenuItem>VR Headsets</DropdownMenuItem>
                     <DropdownMenuItem>AR Brillen</DropdownMenuItem>
                     <DropdownMenuItem>Accessoires</DropdownMenuItem>
@@ -121,7 +121,7 @@ const Header = () => {
                   <input
                     type="text"
                     placeholder="Waar ben je naar op zoek?"
-                    className="w-full px-4 py-2 rounded-md text-gray-900 placeholder-gray-500"
+                    className="w-full px-4 py-2 rounded-md text-gray-900 placeholder-gray-500 font-extra-light"
                   />
                   <Search className="absolute right-3 top-2.5 h-4 w-4 text-gray-400" />
                 </div>
@@ -132,23 +132,23 @@ const Header = () => {
       </header>
 
       {/* Feature bar */}
-      <div className="bg-white py-3 px-4 border-b">
+      <div className="bg-white py-3 px-4 border-b font-extra-light">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-center lg:justify-between items-center text-sm text-gray-600 space-y-2 lg:space-y-0">
           <div className="flex items-center">
             <span className="text-green-600 mr-2">✓</span>
-            <span><strong>Voor 23:00 besteld</strong>, dezelfde dag verzonden</span>
+            <span><strong className="font-bold">Voor 23:00 besteld</strong>, dezelfde dag verzonden</span>
           </div>
           <div className="flex items-center">
             <span className="text-green-600 mr-2">✓</span>
-            <span><strong>Niet gevonden wat je zocht?</strong></span>
+            <span><strong className="font-bold">Niet gevonden wat je zocht?</strong></span>
           </div>
           <div className="flex items-center">
             <span className="text-green-600 mr-2">✓</span>
-            <span>Bezoek ook onze <strong>Consultancy website</strong></span>
+            <span>Bezoek ook onze <strong className="font-bold">Consultancy website</strong></span>
           </div>
           <div className="flex items-center">
             <span className="text-orange-500 mr-2">⭐</span>
-            <span><strong>8.8/10</strong></span>
+            <span><strong className="font-bold">8.8/10</strong></span>
           </div>
         </div>
       </div>
