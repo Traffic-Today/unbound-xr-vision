@@ -1,7 +1,8 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone, Hospital, Building, Film, Industry, Briefcase, ArrowRight } from "lucide-react";
+import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone, Hospital, Building, Film, Wrench, Briefcase, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import { Badge } from "@/components/ui/badge";
 
@@ -525,7 +526,7 @@ const Index = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div className="bg-[#F6F3FF] p-3 rounded-lg group-hover:bg-[#6ECBF5] transition-colors duration-300">
-                    <Industry className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
+                    <Wrench className="text-[#6ECBF5] group-hover:text-white transition-colors duration-300" size={32} />
                   </div>
                   <ArrowRight className="text-gray-400 group-hover:text-[#6ECBF5] opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0" size={20} />
                 </div>
