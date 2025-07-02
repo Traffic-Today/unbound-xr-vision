@@ -4,10 +4,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Camera, Check, Users, BookOpen, Lightbulb, Eye, Headphones, Smartphone, Quote, HelpCircle, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import { Badge } from "@/components/ui/badge";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       <Header />
       
       {/* Hero Section */}
@@ -328,19 +326,19 @@ const Index = () => {
                 </p>
                 <div className="space-y-4 mb-6">
                   <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">1</div>
+                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">1</div>
                     <p className="text-lg text-gray-700 font-extra-light">Je zet de VR bril op</p>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm ">2</div>
+                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">2</div>
                     <p className="text-lg text-gray-700 font-extra-light">Binnen enkele seconden sta je in een virtueel lokaal, praktijkomgeving of 3D-simulatie</p>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">3</div>
+                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">3</div>
                     <p className="text-lg text-gray-700 font-extra-light">Studenten bewegen zich vrij rond, voeren opdrachten uit of volgen instructies</p>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <div className="bg-[#6ECBF5] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">4</div>
+                    <div className="bg-[#6ECBF5] text-white w-8 h-8 flex items-center justify-center font-bold text-sm rounded-none">4</div>
                     <p className="text-lg text-gray-700 font-extra-light">De docent begeleidt, kijkt mee via een tablet of scherm, en bespreekt na</p>
                   </div>
                 </div>
@@ -501,8 +499,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
